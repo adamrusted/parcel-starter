@@ -1,0 +1,26 @@
+{
+  "name": "danny",
+  "version": "1.0.0",
+  "description": "",
+  "targets": {
+    "default": {
+      "source": "src/index.html",
+      "distDir": "dist"
+    }
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "dev": "parcel",
+    "build": "rm -rf dist/* && parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
